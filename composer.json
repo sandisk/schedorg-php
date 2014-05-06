@@ -1,0 +1,23 @@
+{
+    "name":        "sandisk/schedorg-php",
+    "description": "HTTP API wrapper for Sched.org",
+    "type":        "library",
+    "keywords":    [
+        "sched"
+    ],
+    "license":     "MIT",
+    "authors":     [
+        {
+            "name":  "Sandis Klakovskis",
+            "email": "github@sandis.lv"
+        }
+    ],
+    "require":     {
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Sched": "src/"
+        }
+    }
+}
